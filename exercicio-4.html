@@ -3,61 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercicio-1</title>
+    <title>Exercicio-4</title>
     <style>
       body {
-        display: flex;
-        background-image: url(fundo.png);
-        background-repeat: repeat;
         height: 100vh;
-        justify-content: center;
-        align-items: center;
-      }
-      .card {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin: auto;
-        background-color: white;
-        color: black;
+        margin: 0;
         position: relative;
-        width: 500px;
-        height: 450px;
-        border-radius: 20px;
-        flex-direction: column;
-        padding-top: 100px;
+        background-color: darkgray;
       }
-      .card h3 {
-        font-size: 2rem;
+
+      .image {
+        background-image: url(fundo-4.png);
+        width: 65%;
+        top: 0;
+        height: 100%;
+        position: fixed;
+        background-position: left center;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .card-1 {
         position: absolute;
-        top: 20px;
-        left: 20px;
-        margin-bottom: 0;
+        top: 40px;
+        right: 10%;
+        align-items: center;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
       }
-      .card a {
-        text-decoration: none;
+
+      .card-1 h3 {
+        font-size: 2rem;
+        margin: 0 0 10px 0;
+      }
+
+      .card-1 p {
         font-size: 1rem;
-        color: black;
-        margin-left: -160px;
-        margin-top: 10px;
+        color: white;
+        margin: 0;
+        text-align: justify;
+      }
+      .botoes-topo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .botao {
+        padding: 10px 20px;
+        background-color: #5a5a5a;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
       }
     </style>
   </head>
   <body>
-    <div class="card">
-      <h3>Solus Deus salus</h3>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
-      <a href="exercicio-2.html">Clique aqui para o proximo exericicio</a>
+    <div class="image"></div>
+    <div class="card-1">
+      <h3>Paul McCartney</h3>
+      <p>
+        Sir James Paul McCartney é um dos músicos mais influentes, bem-sucedidos
+        e celebrados da história da música global. Nascido em Liverpool, na
+        Inglaterra, em 18 de junho de 1942, ele alcançou a fama mundial nos anos
+        1960 como membro dos The Beatles. Ao lado de John Lennon, formou uma das
+        parcerias de composição mais aclamadas de todos os tempos, moldando o
+        cenário do rock e da música pop.Infância e Formação MusicalPaul
+        McCartney cresceu em uma família de classe trabalhadora em Liverpool.
+        Aos 14 anos, após a trágica perda de sua mãe, Mary McCartney, ele
+        encontrou refúgio na música. Começou a tocar violão e piano,
+        influenciado pelo jazz de seu pai e pelo surgimento do rock and roll
+        americano.Em 1957, McCartney conheceu John Lennon e juntou-se à sua
+        banda de skiffle, The Quarrymen. Pouco depois, Paul convidou seu amigo
+        George Harrison para fazer parte do grupo, estabelecendo a base do que
+        viria a ser os Beatles, posteriormente completados pelo baterista Ringo
+        Starr.A Era dos Beatles (1960–1970)Como baixista, vocalista e compositor
+        principal dos Beatles, McCartney foi fundamental na revolução cultural
+        que a banda promoveu pelo mundo. Inicialmente conhecidos por hits pop
+        energéticos, o grupo evoluiu para experimentações sonoras e conceituais
+        sem precedentes.McCartney foi o principal arquiteto por trás de algumas
+        das canções mais famosas e regravadas da história, incluindo
+        "Yesterday", "Hey Jude", "Let It Be", "Eleanor Rigby" e "Blackbird". Ele
+        também foi o principal idealizador do álbum "Sgt. Pepper's Lonely Hearts
+        Club Band", considerado por muitos críticos um dos discos mais
+        importantes da história do rock.Wings e a Carreira Solo
+        (1970–Presente)Após o fim tumultuado dos Beatles em 1970, McCartney
+        iniciou uma nova fase. Em 1971, ele formou a banda Wings ao lado de sua
+        esposa, Linda McCartney, e do guitarrista Denny Laine. O Wings se tornou
+        um dos maiores fenômenos de arena da década de 1970, emplacando sucessos
+        gigantescos como "Band on the Run", "Jet" e "Live and Let Die".A partir
+        da década de 1980, Paul seguiu uma prolífica carreira solo, colaborando
+        com grandes nomes da música como Stevie Wonder, Michael Jackson e Elvis
+        Costello. Ao longo das décadas seguintes, ele continuou a experimentar
+        com diferentes gêneros, desde a música eletrônica até a música clássica.
+      </p>
+      <div class="botoes-topo">
+        <a href="exercicio-3.html" class="botao">Anterior</a>
+        <a href="exercicio-5.html" class="botao">Proximo</a>
+      </div>
     </div>
   </body>
 </html>
